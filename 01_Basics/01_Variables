@@ -1,0 +1,12 @@
+const accountId = 14451;
+let accountEmail = "dushyant@google.com";
+var city = "Gwalior";
+accountBranch = "Bengaluru";
+let newVariable;
+
+/*
+Never use var because of issue in block and functional scope
+Block scope is {}
+ */
+
+console.table([accountId, accountEmail, city, accountBranch, newVariable]);
